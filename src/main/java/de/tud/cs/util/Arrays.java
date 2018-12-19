@@ -13,7 +13,7 @@ import de.tud.cs.st.constraints.Null;
  */
 public final class Arrays {
 
-    public static final int[] EMPTYINTARRAY = new int[0];
+    public static final int[] EMPTY_INT_ARRAY = new int[0];
 
 
     private Arrays() {
@@ -294,7 +294,7 @@ public final class Arrays {
             if (index != 0) {
                 throw new ArrayIndexOutOfBoundsException(index);
             }
-            return emptyIntArray;
+            return EMPTY_INT_ARRAY;
         }
 
         int[] newts = new int[ts.length - 1];

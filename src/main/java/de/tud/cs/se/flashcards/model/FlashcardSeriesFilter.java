@@ -61,7 +61,7 @@ public final class FlashcardSeriesFilter extends AbstractFlashcardSeries {
 
 
     // This array's content is always sorted in ascending order!
-    private int[] flashcardIndices = Arrays.emptyIntArray;
+    private int[] flashcardIndices = Arrays.EMPTY_INT_ARRAY;
 
     /**
      * Stores the current search term.

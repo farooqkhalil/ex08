@@ -46,9 +46,7 @@ import de.tud.cs.se.flashcards.model.FlashcardSeries;
 public final class SystematicLearningStrategy implements LearningStrategy {
 
 	static final LearningStrategyInfo INFO = new LearningStrategyInfo() {
-
 		public String getShortDescription() {
-
 			return "Systematic";
 		}
 
